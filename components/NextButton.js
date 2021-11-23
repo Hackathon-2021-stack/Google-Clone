@@ -9,7 +9,7 @@ function NextButton() {
     return (
         <div className="flex justify-between max-w-lg mb-10 text-blue-700">
             {startIndex >= 10 && (
-                <Link href={`search?trem=${router.query.term}&start=${startIndex - 10}`}>
+                <Link href={`search?trem=${router.query.term}&start=${startIndex - 10} `}>
                 <div className="flex flex-col items-center flex-grow cursor-pointer hover:underline">
                     <ChevronLeftIcon className="h-5"/>
                     <p>Previous</p>
