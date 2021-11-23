@@ -1,3 +1,5 @@
 module.exports = {
-  reactStrictMode: true,
+  images:{
+    domains:["im3.ezgif.com","www.google.co.uk"]
+  }
 }
