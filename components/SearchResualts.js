@@ -13,7 +13,7 @@ const SearchResualts = ({results}) => {
                             <h2 className="text-xl font-medium text-[#1d62d1] truncate group-hover:underline ">{result.title}</h2>
                         </a>
                     </div>
-                        <p className="line-clamp-2">{result.snippet}</p>
+                        <p className="">{result.snippet}</p>
                 </div>
             ))}
             <NextButton/>
