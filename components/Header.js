@@ -30,7 +30,7 @@ const Header = () => {
             onClick={() => {router.push('/')}}
             />
             <form className='flex items-center flex-grow max-w-3xl px-6 py-3 ml-10 mr-5 border border-gray-200 rounded-full shadow-lg'>
-                <input type="text" ref={searchInputRef} className='flex-grow w-full focus:outline-none' />
+                <input defaultValue={router.query.term} type="text" ref={searchInputRef} className='flex-grow w-full focus:outline-none' />
                 <XIcon className='text-gray-500 transition transform cursor-pointer h-7 decoration-100 hover:scale-125 sm:mr-3'
                 onClick={()=>{searchInputRef.current.value = ""}}/>
                 <MicrophoneIcon className='hidden h-6 pl-4 mr-3 text-blue-500 border-l-2 border-gray-300 cursor-pointer sm:inline-flex'/>
